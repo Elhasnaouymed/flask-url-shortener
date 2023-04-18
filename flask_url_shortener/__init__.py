@@ -117,7 +117,7 @@ class Shortener:
 
     def _make_click(self, link_object, ip, useragent):
         clk = self.Click()
-        clk.url = link_object
+        clk.link = link_object
         if ip:
             clk.ip = request.remote_addr
         if useragent:

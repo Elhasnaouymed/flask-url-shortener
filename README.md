@@ -10,7 +10,7 @@ to create shorten Link as follows *(simple example)*:
 from flask_url_shortener import Shortener
 shortener = Shortener()
 ...
-shortener.init_app(app, db, 'https://your-domin.com', 'rule')
+shortener.init_app(app, db, 'https://your-domin.com', '/rule')
 short_link = shortener.shorten('https://www.fsf.org/', _commit=True)
 print(short_link.link)
 ```
