@@ -1,0 +1,6 @@
+__pycache__/
+.idea/
+venv/
+dist/
+flask_url_shortener.egg-info/
+main.py
